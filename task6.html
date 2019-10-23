@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr= [ ];
+    for( let j=0; j<6; j++) {
+        let input= prompt("nhập vào 1 kí tự:");
+        arr.push(input);
+    }
+
+      for( let i=0; i<arr.length; i++) {
+           if( arr[i]== "-") {
+                arr[i]= '_'
+           }
+       }
+       document.write(arr)
+</script>
+</body>
+</html>
